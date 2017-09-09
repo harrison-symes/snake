@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color:pink;
+}
+.header{
+  text-align: center;
+  text-decoration-color: red;
+}
+
+#honey{font-size: 150px}
+.blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2, start);
+}
+@keyframes blink {
+    80% {
+        visibility: hidden;
+    }
+}
